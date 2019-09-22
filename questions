@@ -1,0 +1,29 @@
+﻿
+1) Explain REST and RESTful
+REST, or REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, 
+making it easier for systems to communicate with each other
+An API is RESTful when it respects the REST architecture principle. This architecture principle applies to Web services. 
+The main feature of this architecture is that the server part (the API) and the client part communicate without the client 
+knowing the structure and content of the information stored on the server
+
+2) Explain the architectural style for the creation of a web API (client server communication, formatting language, etc.)
+The client send a request for the server like (https://www.linkedin.com/in/skander-ellouze) the server will communicate with the database server 
+then the web server will response with json on xml data and a html page
+
+3) Explain HTTP requests types when used with RESTful web (GET, PUT, POST, etc.)
+GET to retrieve resource representation/information only
+PUT to update existing resource
+POST to create new subordinate resources
+DELETE to delete resources
+
+4) Explain the difference between stateless and stateful protocol. Which type of protocol is HTTP ?
+Stateless Protocol does not require the server to retain the server information or session details.
+Stateful Protocol require server to save the status and session information.
+The HTTP protocol is a request/response protocol based on the client/server based architecture
+
+5) Explain the difference between a GET and a POST (like how are sent the parameters)
+GET is used to request data from a specified resource, you can send the parameters in the url
+POST is used to send data to a server to create a resource, the data sent to the server with POST is stored in the request body of the HTTP request
+
+6) You can’t work out how to solve a coding problem. What do you do to find the answer?
+I will try many solutions, debug, try again, try again, ask google and stackoverflow, ask my colleagues
